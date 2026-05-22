@@ -1,0 +1,52 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "silkome-reasoning",
+  "dataset_size": 3423225,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/lamm-mit/silkome-reasoning@d6f942950415ab79166892306e8c8a06cfa1bf79/data/train-00000-of-00001.parquet": {
+      "num_bytes": 1133295,
+      "checksum": null
+    },
+    "hf://datasets/lamm-mit/silkome-reasoning@d6f942950415ab79166892306e8c8a06cfa1bf79/data/test-00000-of-00001.parquet": {
+      "num_bytes": 127829,
+      "checksum": null
+    }
+  },
+  "download_size": 1261124,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4684349,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3080679,
+      "num_examples": 3206,
+      "dataset_name": "silkome-reasoning"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 342546,
+      "num_examples": 357,
+      "dataset_name": "silkome-reasoning"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
